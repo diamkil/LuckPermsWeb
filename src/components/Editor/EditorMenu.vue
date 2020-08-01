@@ -269,7 +269,7 @@ export default {
       position: sticky;
       top: 2.5rem;
       z-index: 5;
-      background-color: $navy;
+      background-color: #250e25;
       display: flex;
       align-items: center;
       justify-content: space-between;
