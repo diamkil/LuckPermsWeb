@@ -143,7 +143,7 @@ calculate_variables() {
 
     PROTOCOL="http$("$USE_HTTPS" && echo "s")"
     BASE_URL="$PROTOCOL://$EXTERNAL_ADDRESS/"
-    BYTEBIN_URL="$("$INSTALL_BYTEBIN" && echo "${BASE_URL}bytebin/" || echo "https://bytebin.lucko.me/")"
+    BYTEBIN_URL="$("$INSTALL_BYTEBIN" && echo "byte.${BASE_URL}" || echo "https://bytebin.lucko.me/")"
 
     if "$USE_HTTPS" && "$USE_LETSENCRYPT"; then
         HTTPS_CERT_PATH="/etc/letsencrypt/live/$EXTERNAL_ADDRESS/fullchain.pem"
@@ -216,7 +216,7 @@ install_webfiles() {
     mv -f config.json.tmp config.json || exit $?
 
     # Render webfiles
-    npm install || exit $?
+    npm install --unsafe-perm || exit $?
     npm run build -- --skip-plugins eslint || exit $?
 
     popd > /dev/null
@@ -264,7 +264,7 @@ configure_nginx() {
     pushd /etc/nginx > /dev/null
 
     # Create config file
-    local nginx_config_file="sites-available/luckpermsweb_$EXTERNAL_ADDRESS.conf"
+    local nginx_config_file="sites-available/luckpermsweb-default.conf"
     create_webserver_file \
         "$INSTALLER_DIR/files/nginx/luckpermsweb_header_$PROTOCOL.conf" \
         "$INSTALLER_DIR/files/nginx/luckpermsweb_base.conf" \

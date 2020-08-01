@@ -5,8 +5,8 @@
         <div :class="{'logo': true, 'selfhosted': config.selfHosted }">
           <img alt="LuckPerms logo" src="../assets/logo.png">
           <div>
-            <h1>LuckPerms</h1>
-            <p>A permissions plugin for Minecraft servers.</p>
+            <h1>PandaPerms</h1>
+            <p>A lightly modified PandaCrafts fork of LuckPerms</p>
           </div>
         </div>
 
@@ -116,7 +116,7 @@
               <font-awesome icon="comment-alt" />
               Verbose Viewer
             </router-link>
-            <router-link to="/tree" alt="Tree Viewer">
+            <router-link to="/treeview" alt="Tree Viewer">
               <font-awesome icon="sitemap" />
               Tree Viewer
             </router-link>
