@@ -108,23 +108,7 @@
       <router-view/>
     </transition>
 
-    <footer>
-      <div class="footer">
-        <ul>
-          <li>
-            <font-awesome icon="code-branch" fixed-width />
-            <a href="https://github.com/diamkil" target="_blank">diamkil</a>
-            /
-            <a href="https://github.com/diamkil/LuckPermsWeb" target="_blank">LuckPermsWeb</a>
-          </li>
-          <li>
-            <a href="https://github.com/lucko/LuckPermsWeb/blob/master/LICENSE.txt" target="_blank">
-            Copyright © 2017-{{new Date().getFullYear().toString()}} LuckPerms contributors
-            </a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+
   </div>
 </template>
 
