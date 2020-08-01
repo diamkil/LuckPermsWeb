@@ -100,7 +100,7 @@ export default new Vuex.Store({
       if (!state.version || !state.editor.metaData?.pluginVersion) return null;
 
       return compareVersions(state.version, state.editor.metaData.pluginVersion);
-    }
+    },
   },
 
 

@@ -167,7 +167,7 @@ export default {
       const entries = [];
       for (const [key, values] of Object.entries(this.context.contexts)) {
         for (const value of values) {
-          entries.push({key: key, value: value});
+          entries.push({ key, value });
         }
       }
       return entries;
@@ -177,12 +177,10 @@ export default {
     },
     potentialContextValues() {
       if (!this.context.key) return null;
-      const context = this.potentialContexts.find(context => {
-        return context.key === this.context.key;
-      });
+      const context = this.potentialContexts.find(context => context.key === this.context.key);
       if (!context) return null;
       return context.values;
-    }
+    },
   },
   methods: {
     onTag(tag) {
@@ -246,7 +244,7 @@ export default {
       setTimeout(() => {
         this.context[type] = false;
       }, 250);
-    }
+    },
   },
 };
 </script>
