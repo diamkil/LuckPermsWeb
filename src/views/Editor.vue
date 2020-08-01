@@ -320,8 +320,8 @@ main.editor {
 
           .buttons {
             button {
-              background: $brand-color;
-              color: $navy;
+              background: #270727f2;
+              color: #ffc800;
               font: inherit;
               font-size: 1rem;
               font-weight: bold;
