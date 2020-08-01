@@ -3,8 +3,8 @@
     <nav id="nav">
       <div>
         <router-link to="/" class="logo">
-          <img alt="LuckPerms logo" src="@/assets/logo.png">
-          <span>LuckPerms</span>
+          <img alt="PandaCrafts logo" src="@/assets/logo.png">
+          <span>PandaPerms</span>
         </router-link>
         <div v-if="!config.selfHosted" class="nav-message">
           <a href="https://bisecthosting.com/luck" target="_blank">
@@ -113,9 +113,9 @@
         <ul>
           <li>
             <font-awesome icon="code-branch" fixed-width />
-            <a href="https://github.com/lucko" target="_blank">lucko</a>
+            <a href="https://github.com/diamkil" target="_blank">diamkil</a>
             /
-            <a href="https://github.com/lucko/LuckPermsWeb" target="_blank">LuckPermsWeb</a>
+            <a href="https://github.com/diamkil/LuckPermsWeb" target="_blank">LuckPermsWeb</a>
           </li>
           <li>
             <a href="https://github.com/lucko/LuckPermsWeb/blob/master/LICENSE.txt" target="_blank">
@@ -131,11 +131,11 @@
 <script>
 export default {
   metaInfo: {
-    titleTemplate: '%s | LuckPerms',
+    titleTemplate: '%s | PandaPerms',
     meta: [
       {
         property: 'og:title',
-        content: 'LuckPerms',
+        content: 'PandaPerms',
       },
       {
         property: 'og:description',
