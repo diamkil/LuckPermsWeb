@@ -108,7 +108,6 @@
       <router-view/>
     </transition>
 
-
   </div>
 </template>
 
