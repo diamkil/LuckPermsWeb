@@ -79,9 +79,9 @@
     </div>
     <div v-else class="tool-intro">
       <div>
-        <img alt="LuckPerms logo" src="../assets/logo.png">
+        <img alt="PandaCrafts logo" src="../assets/logo.png">
         <div class="text">
-          <h1>LuckPerms</h1>
+          <h1>PandaPerms</h1>
           <p>Verbose Viewer</p>
           <div v-if="verboseData.status === 3" class="error">
             <p><strong>There was an error loading the data.</strong> Either the URL was copied wrong

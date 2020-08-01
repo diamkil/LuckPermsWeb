@@ -21,9 +21,9 @@
       <transition name="fade" mode="out-in">
         <div v-if="!sessions.length" class="tool-intro" key="loading">
           <div>
-            <img alt="LuckPerms logo" src="../assets/logo.png">
+            <img alt="PandaCrafts logo" src="../assets/logo.png">
             <div class="text">
-              <h1>LuckPerms</h1>
+              <h1>PandaPerms</h1>
               <p>Web Permissions Editor</p>
               <div v-if="!errors.load">
                 <p>

@@ -42,9 +42,9 @@
     </div>
     <div v-else class="tool-intro">
       <div>
-        <img alt="LuckPerms logo" src="../assets/logo.png">
+        <img alt="PandaCrafts logo" src="../assets/logo.png">
         <div class="text">
-          <h1>LuckPerms</h1>
+          <h1>PandaPerms</h1>
           <p>Permission Tree Viewer</p>
           <template v-if="!errors.load">
             <a href="/treeview/demo"><button class="button demo-button">View Demo</button></a>

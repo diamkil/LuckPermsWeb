@@ -133,7 +133,7 @@ export default {
   name: 'Home',
 
   metaInfo: {
-    title: 'LuckPerms',
+    title: 'PandaPerms',
     titleTemplate: null,
   },
 
