@@ -405,7 +405,7 @@ body {
       }
 
       a, span {
-        color: $brand-color;
+        color: #ffc800;
         display: flex;
         align-items: center;
         font-weight: bold;

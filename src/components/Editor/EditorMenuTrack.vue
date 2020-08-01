@@ -103,7 +103,7 @@ export default {
     h3 {
       margin: 0;
       padding: .5rem;
-      color: #ffc800
+      color: #ffc800;
       border-bottom: $grey 1px solid;
       text-transform: uppercase;
       display: flex;
