@@ -5,7 +5,7 @@ The automatic setup is fairly straight forward.
 Just run those commands as a user that has `sudo` permissions:
 
 ```sh
-git clone --recursive https://github.com/lucko/LuckPermsWeb.git
+git clone --recursive https://github.com/diamkil/LuckPermsWeb.git
 LuckPermsWeb/installer/install.sh
 ```
 
@@ -53,7 +53,7 @@ Setting up the project manually is simple, you will need some basic knowledge in
 #### Clone and install the app
 Because this repository contains a submodule repository (the LuckPerms wiki) you will want to clone it using the following command:
 ```sh
-git clone --recursive https://github.com/lucko/LuckPermsWeb.git
+git clone --recursive https://github.com/diamkil/LuckPermsWeb.git
 ```
 
 Once it is cloned, move into the new directory and install the dependencies:
