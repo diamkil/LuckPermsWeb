@@ -138,7 +138,7 @@ export default {
       },
       {
         property: 'og:site_name',
-        content: 'LuckPerms',
+        content: 'PandaPerms',
       },
     ],
   },
