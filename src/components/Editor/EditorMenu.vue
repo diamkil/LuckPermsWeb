@@ -224,7 +224,7 @@ export default {
       position: sticky;
       top: 0;
       z-index: 10;
-      background: $navy;
+      background: #270727f2;
 
       input {
         font: inherit;
