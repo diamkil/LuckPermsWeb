@@ -203,7 +203,7 @@ export default {
     border-right: 1px solid rgba(255,255,255,.2);
     position: absolute;
     z-index: 55;
-    background: black;
+    background: #1b0d1b;
     top: 4rem;
     bottom: 0;
     left: -20rem;
@@ -224,7 +224,7 @@ export default {
       position: sticky;
       top: 0;
       z-index: 10;
-      background: $navy;
+      background: #270727f2;
 
       input {
         font: inherit;
@@ -269,7 +269,7 @@ export default {
       position: sticky;
       top: 2.5rem;
       z-index: 5;
-      background-color: $navy;
+      background-color: #250e25;
       display: flex;
       align-items: center;
       justify-content: space-between;
