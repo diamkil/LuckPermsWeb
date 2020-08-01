@@ -203,7 +203,7 @@ export default {
     border-right: 1px solid rgba(255,255,255,.2);
     position: absolute;
     z-index: 55;
-    background: black;
+    background: #1b0d1b;
     top: 4rem;
     bottom: 0;
     left: -20rem;
