@@ -232,7 +232,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #FFF;
   line-height: 1.5;
-  background-color: #141422;
+  background-color: #2b172b;
   width: 100%;
   height: 100%;
   display: flex;
